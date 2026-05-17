@@ -3,6 +3,7 @@ import { HashRouter, Routes, Route } from 'react-router-dom';
 import { VycintyProvider } from './store/state';
 import { Navbar } from './components/layout/Navbar';
 import { Footer } from './components/layout/Footer';
+import ScrollToTop from './components/ScrollToTop';
 
 // Page Imports
 import { HomePage } from './pages/HomePage';
@@ -30,6 +31,7 @@ export default function App() {
   return (
     <VycintyProvider>
       <HashRouter>
+        <ScrollToTop />
         <div className="flex flex-col min-h-screen bg-[#FAFAF8] text-[#1A1A2E] font-sans">
           
           {/* Universal Header Navbar */}
