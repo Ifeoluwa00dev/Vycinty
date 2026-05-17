@@ -1,0 +1,6 @@
+{
+  "name": "Vycinty",
+  "description": "A city-scoped business discovery platform for Ile-Ife and other Nigerian cities — find local restaurants, vendors, filling stations, hotels, and more.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
