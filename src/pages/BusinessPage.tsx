@@ -195,15 +195,7 @@ export const BusinessPage: React.FC = () => {
                       </span>
                     )}
 
-                    {business.ownerId ? (
-                      <span className="inline-flex items-center bg-indigo-50 border border-indigo-100 text-indigo-700 px-2.5 py-0.5 rounded text-[10px] font-bold uppercase tracking-wider font-mono">
-                        Claimed Listing
-                      </span>
-                    ) : (
-                      <span className="inline-flex items-center bg-amber-50 border border-amber-200 text-amber-700 px-2.5 py-0.5 rounded text-[10px] font-bold uppercase tracking-wider font-mono">
-                        Unclaimed
-                      </span>
-                    )}
+                    
                   </div>
                   
                   <div className="flex items-center space-x-2 text-sm">
