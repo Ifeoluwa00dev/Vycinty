@@ -1,16 +1,47 @@
+# Vycinty
+
+**Ile-Ife business discovery platform.**
+
+Vycinty helps residents and visitors in Ile-Ife find local businesses, services, and experiences — bringing the city's commercial life online in one searchable, browsable directory.
+
+---
+
+## What It Does
+
+- Discover businesses by category, location, or name
+- View business profiles: contact info, hours, services, and photos
+- Business owners can list and manage their presence
+- Mobile-first — built for how people in Ile-Ife actually browse
+
+---
+
+## Why Ile-Ife
+
+Ile-Ife is one of Nigeria's most historically significant cities, yet its local economy is largely invisible online. Vycinty changes that — one business at a time.
+
+---
+
+## Tech Stack
+
+| Layer | Technology |
+|---|---|
+| Frontend | React + TypeScript |
+| Styling | Tailwind CSS |
+| Backend / Auth | Supabase |
+| Database | Neon (PostgreSQL) |
+| Hosting | Netlify |
+
+---
 
 
-This contains everything you need to run your app locally.
+```
 
-View your app in AI Studio: https://ai.studio/apps/23b2bc92-9dc6-4349-9df1-b21d76771a0a
+```bash
+npm run dev
+```
 
-## Run Locally
+---
 
-**Prerequisites:**  Node.js
+## License
 
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+MIT
